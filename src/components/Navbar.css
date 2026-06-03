@@ -1,0 +1,47 @@
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000ba; 
+  padding: 15px 30px;
+  color: rgb(255, 251, 251); 
+  font-size: 24px;
+ 
+}
+
+
+.navlinks {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+
+.navlinks li{
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.navlinks li:hover {
+  color: #041127; 
+}
+
+/*Responsive*/
+
+@media (max-width:768px) {
+   .navbar{
+      flex-direction: column;
+      font-size: 18px;;
+
+    }
+
+    .navlinks{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15px;
+        
+    }
+
+}

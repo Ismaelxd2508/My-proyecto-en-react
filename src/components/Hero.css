@@ -1,0 +1,58 @@
+.hero {
+  background: linear-gradient(135deg, #070505c6, #010332);
+  color: white;
+  padding: 40px ; 
+  text-align: left; 
+}
+.hero-title{
+     background: linear-gradient(135deg, #000000c6, #140b65);
+    color: white;
+    padding: 20px; 
+    text-align: left; 
+    font-size: 18px;
+    
+}
+
+.hero-description{
+  background: linear-gradient(135deg, #000000c6, #1f1b51);
+  color: rgb(253, 253, 253); 
+  padding: 20px; 
+  text-align:left; 
+  font-size: 18px;
+  font-family: 'Trebuchet MS', sans-serif;
+  
+
+}
+.herobutton{
+background: linear-gradient(135deg, #000000c6, #211c1c);
+color: white;
+border:#211c1c ;
+padding: 20px 20px;
+border-radius: 20px;
+cursor: pointer;
+display: flex;
+  gap: 15px;
+}
+/*Responsive*/
+
+@media (max-width:768px) {
+   
+  .hero{
+        padding: 20px ;
+    }
+
+    .hero-title{
+        font-size: 18px;
+    }
+
+    .hero-description{
+        font-size: 14px;
+    }
+
+    .herobutton{
+        font-size: 18px;
+        width: 80%;
+        margin: 5px 0;
+    }
+
+  }
